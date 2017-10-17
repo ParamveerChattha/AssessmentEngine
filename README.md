@@ -68,3 +68,15 @@ The product is an Assessment Engine that can be used to create question bank, ro
 2.	Event producers and consumers
 3.	Load Balancing
 4.	Clustering
+
+
+# How to run:
+-Clone this repository
+
+mvn clean compile install
+
+cd AuthenticationService
+
+mvn clean compile install spring-boot:run
+
+Open browser and point to: http://localhost:8080/
